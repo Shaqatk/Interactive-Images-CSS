@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Forest</title>
+    <link href="animate.css" rel="stylesheet"/>
+<style>
+    body {
+ margin-top: 0px;
+ margin-right: 0px;
+ margin-bottom: 0px;
+ margin-left: 0px
+}
+    h1{
+position: absolute;
+    z-index: 1;
+    left: 10px;
+    top: -10px; 
+    -webkit-animation-delay:2s;
+    -webkit-animation-duration: 2s;
+        font-family: helvetica;
+}
+
+    span{
+        position: absolute;
+        z-index: 1;
+        top: 210px;
+        left: 500px;
+        opacity: 0;
+    }
+.forest {
+    display: none;
+    left: 10px;
+}
+    
+    
+span:hover + .forest {
+    display: block;
+}
+</style>
+</head>
+<body>
+<h1 class="animated bounceInDown"><a style="text-decoration:none; color: white;" href="index.html">Road</a></h1>
+<span><a href="index.html"><img alt="" width="350" height="200" src="bulb.png"></a></span>
+    <div class="forest"><img alt="" width="1280" height="800" src="pa.jpg"></div>
+<div><img alt="" width="1280" height="800" src="pag.jpg"></div>
+
+</body>
+</html>

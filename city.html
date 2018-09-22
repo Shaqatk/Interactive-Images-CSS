@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>City</title>
+    <link href="animate.css" rel="stylesheet"/>
+<style>
+    body {
+ margin-top: 0px;
+ margin-right: 0px;
+ margin-bottom: 0px;
+ margin-left: 0px
+}
+    h1{
+position: absolute;
+    z-index: 1;
+    left: 10px;
+    top: -10px; 
+    -webkit-animation-delay:2s;
+    -webkit-animation-duration: 2s;
+        font-family: helvetica;
+}
+
+    span{
+        position: absolute;
+        z-index: 1;
+        top: 60px;
+        left: 10px;
+        -webkit-animation-delay:2s;
+    -webkit-animation-duration: 2s
+    }
+.city {
+    display: none;
+    left: 10px;
+}
+    .lightoff{
+        position: fixed;
+    }
+    
+    
+span:hover + .city {
+    display: block;
+}
+    .moon{
+        position: absolute;
+        z-index: 1;
+        left: 940px;
+        top: 0px;
+        opacity: 0;
+    }
+</style>
+</head>
+<body>
+<h1 class="animated bounceInDown"><a style="text-decoration:none; color: yellow;" href="index.html">Road</a></h1>
+<span class="animated bounceInLeft"><img alt="" width="69" height="100" src="bulb.png"></span>
+    <div class="city"><img alt="" width="1280" height="800" src="lightt.jpg"></div>
+<div><img class="lightoff" width="1280" height="800" src="lightoff.jpg"></div>
+    <span class="moon"><a href="statement.html"><img alt="" width="300" height="290" src="moon1.png"></a></span>
+</body>
+</html>
